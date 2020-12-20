@@ -211,10 +211,10 @@ def bfInstagram(users, password, command, newpassword):
 				print(f"[{R + B}!{C}](LIMIT)Please wait a few minutes before you try again.")
 				 t = 600
 				 while t:
-				 	minu, sec = divmod(t, 60)
-				 	print(f"[{R + B}!{C}]Restarting from {minu}:{sec}", end="\r")
-				 	time.sleep(1)
-				 	t -= 1
+minu, sec = divmod(t, 60)
+				 print(f"[{R + B}!{C}]Restarting from {minu}:{sec}", end="\r")
+				 time.sleep(1)
+				 t -= 1
 				
 
 			if login == 'false':
